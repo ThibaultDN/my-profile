@@ -1,0 +1,77 @@
+/* Colors and fonts */
+body { 
+	background: ghostwhite;
+	color: midnightblue;
+	font-family: Didot;
+	font-size: 16px;
+}
+h1, h2, h3 {
+  font-family: Didot;
+}
+p {
+	color: lightslategray;
+}
+a { 
+  text-decoration: none;
+  color: slategray;
+}
+a:hover {
+	color: midnightblue;
+	text-decoration: underline;
+}
+.img-circle {
+	border-radius: 50%;
+	margin: 10px 230px;
+}
+#banner {
+	background: white;
+	padding: 40px;
+	margin: 40px auto;
+	box-shadow: 0px 10px 40px rgba(0,0,0,0.1);
+	border-radius: 4px;
+}
+.btn-blue {
+	background-color: #6B72E1;
+	color: white;
+	padding: 15px 40px;
+	margin: 190px;
+	border-radius: 5px;
+}
+.whithe-circle {
+	background: white;
+	padding: 60px;
+	margin: 40px auto;
+	box-shadow: 0px 10px 40px rgba(0,0,0,0.1);
+	border-radius: 4px;
+}
+.container {
+	width: 700px;
+	margin: 10px auto;
+}
+}
+@media (max-width: 960px) {
+	/*For a screen < 960px, this CSS will be read */
+	.container {
+		width: 700px
+	}
+
+}
+@media (max-width: 720px) {
+	/*For a screen < 720px, this CSS will be read */
+	.container {
+		width: 500px
+	}
+}
+@media (max-width: 540px) {
+	/*For a screen < 540px, this CSS will be read */
+	.container {
+		width: 300px
+	}
+#end {
+	padding: 20px;
+	margin: 20px;
+	box-shadow: 40px 10px 20px rgba(0,0,0,0.1);
+}
+#introduction {
+	margin-bottom: 40px;
+}
